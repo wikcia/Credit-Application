@@ -3,6 +3,7 @@ public class FinancialData {
     private int totalMonthlyIncomeInPLN;
     private int numOfFamilyMembers;
 
+    //gettery
     public int getTotalMonthlyIncomeInPLN() {
         return totalMonthlyIncomeInPLN;
     }
