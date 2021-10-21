@@ -18,7 +18,7 @@ public class Main {
 
         IncomeCalculator incomeCalculator = new IncomeCalculator(totalMonthlyIncomeInPLN,numberOfFamilyDependants);
 
-        System.out.println("Decision is " + incomeCalculator.incomePerFamilyMember());
+        System.out.println(name + lastName + " Decision is " + incomeCalculator.incomePerFamilyMember());
 
     }
 }
