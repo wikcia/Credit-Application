@@ -8,12 +8,12 @@ public class IncomeCalculator {
         this.numOfFamilyMembers = numOfFamilyMembers;
     }
 
-    public DecisionType incomePerFamilyMember(){
-        FinancialData financialData = new FinancialData(totalMonthlyIncomeInPLN,numOfFamilyMembers);
+    public DecisionType incomePerFamilyMember() {
+       // FinancialData financialData = new FinancialData(totalMonthlyIncomeInPLN,numOfFamilyMembers);
 
-        if( totalMonthlyIncomeInPLN/numOfFamilyMembers > 2000){
+        if ( totalMonthlyIncomeInPLN / numOfFamilyMembers > 2000) {
             return DecisionType.POSITIVE;
-        }else{
+        }else {
             return DecisionType.NEGATIVE;
         }
     }
