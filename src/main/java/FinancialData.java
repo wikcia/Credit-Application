@@ -1,4 +1,3 @@
-
 public class FinancialData {
 
     private int totalMonthlyIncomeInPLN;
