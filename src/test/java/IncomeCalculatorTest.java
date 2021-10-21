@@ -19,7 +19,7 @@ class IncomeCalculatorTest {
         //then
         assertEquals(DecisionType.NEGATIVE,result);
     }
-
+    //
     @Test
     public void test2(){
         //given
