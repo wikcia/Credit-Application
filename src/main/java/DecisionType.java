@@ -1,4 +1,5 @@
 public enum DecisionType {
     POSITIVE,
-    NEGATIVE
+    NEGATIVE,
+    NIE_LUBIE_BARTUSIA
 }

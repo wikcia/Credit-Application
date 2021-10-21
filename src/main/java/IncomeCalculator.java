@@ -2,6 +2,7 @@ public class IncomeCalculator {
 
     private int totalMonthlyIncomeInPLN;
     private int numOfFamilyMembers;
+    public static final int cons = 2000;
 
     public IncomeCalculator(int totalMonthlyIncomeInPLN, int numOfFamilyMembers) {
         this.totalMonthlyIncomeInPLN = totalMonthlyIncomeInPLN;
@@ -9,11 +10,10 @@ public class IncomeCalculator {
     }
 
     public DecisionType incomePerFamilyMember() {
-       // FinancialData financialData = new FinancialData(totalMonthlyIncomeInPLN,numOfFamilyMembers);
 
-        if ( totalMonthlyIncomeInPLN / numOfFamilyMembers > 2000) {
+        if (totalMonthlyIncomeInPLN / numOfFamilyMembers > cons) {
             return DecisionType.POSITIVE;
-        }else {
+         } else {
             return DecisionType.NEGATIVE;
         }
     }
